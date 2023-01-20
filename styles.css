@@ -5,3 +5,16 @@ img {
 }
 
 /* Happy coding! */
+
+.container {
+    border: 0.2rem solid;
+    border-color: black;
+
+}
+
+.card {
+    border: 0.2rem solid;
+    border-color: black;
+    margin: 1rem;
+
+}
