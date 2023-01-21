@@ -25,6 +25,7 @@ h1 {
     align-items: center;
 }
 
+/*Invisible container to separate dark / light such that they line up with background gradient*/
 .container__side {
     display: flex;
     flex-direction: row;
