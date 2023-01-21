@@ -12,22 +12,58 @@
 <body>
     <h1>BEM Wars</h1>
     <div class="container">
-        <div class="card card--dark">
-            <h2 class="card__title">The Dark Side</h2>
-            <img class="card__image card__image--dark" src="./images/vader.jpeg">
-            <p class="card__text">Nesting!</p>
-            <p class="card__text">Conflict!</p>
-            <p class="card__text">Specificity Wars!</p>
-            <p class="card__text">Cookies</p>
+        <div class="container__side">
+            <div class="card card--dark">
+                <h2 class="card__title">The Dark Side</h2>
+                <img class="card__image card__image--dark" src="./images/vader.jpeg">
+                <button class="card__button card__button--dark" type="button">WARNING</button>
+                <p class="card__text">Nesting!</p>
+                <p class="card__text">Conflict!</p>
+                <p class="card__text">Specificity Wars!</p>
+                <p class="card__text">Cookies</p>
+            </div>
+            <div class="card card--dark">
+                <h2 class="card__title">The Dark Side</h2>
+                <img class="card__image card__image--dark" src="./images/grievous.jpeg">
+                <button class="card__button card__button--dark" type="button">WARNING</button>
+                <p class="card__text">Hates Maintenance!</p>
+                <p class="card__text">Unstructured!</p>
+                <p class="card__text">Ambiguous Names!</p>
+                <p class="card__text">Cookies...?</p>
+            </div>
         </div>
 
-        <div class="card card--light">
-            <h2 class="card__title">The Force</h2>
-            <img class="card__image card__image--light" src="./images/yoda.jpeg">
-            <p class="card__text">Love</p>
-            <p class="card__text">Beauty</p>
-            <p class="card__text">CSS that Scales!</p>
-            <p class="card__text">Great warrior. Make one great, wars do not!</p>
+        <div class="container__side">
+            <div class="card card--neutral">
+                <h2 class="card__title">Has No Allegiance</h2>
+                <img class="card__image card__image--neutral" src="./images/cookie.gif">
+                <button class="card__button card__button--neutral" type="button">COOKIES</button>
+                <p class="card__text">Did someone...</p>
+                <p class="card__text">...say...</p>
+                <p class="card__text">...cookies?</p>
+                <p class="card__text">COOKIES!?!</p>
+            </div>
+        </div>
+
+        <div class="container__side">
+            <div class="card card--light">
+                <h2 class="card__title">The Force</h2>
+                <img class="card__image card__image--light" src="./images/yoda.jpeg">
+                <button class="card__button card__button--light" type="button">COOL GUYS</button>
+                <p class="card__text">Love</p>
+                <p class="card__text">Beauty</p>
+                <p class="card__text">CSS that Scales!</p>
+                <p class="card__text">Great warrior. Make one great, wars do not!</p>
+            </div>
+            <div class="card card--light">
+                <h2 class="card__title">The Force</h2>
+                <img class="card__image card__image--light" src="./images/ackbar.jpeg">
+                <button class="card__button card__button--light" type="button">COOL GUYS</button>
+                <p class="card__text">Performance</p>
+                <p class="card__text">Maintainability</p>
+                <p class="card__text">Readability</p>
+                <p class="card__text">It's a trap!</p>
+            </div>
         </div>
     </div>
 </body>
